@@ -1,0 +1,16 @@
+.sidebarhomepage {
+  width: 15%;
+  min-height: 300px;
+
+
+  .list {
+    color: black;
+    display: block;
+    margin: 15px 0 0 10px;
+
+    &:hover {
+      color: rgb(120, 119, 119);
+      transition: 0.1s ease;
+    }
+  }
+}

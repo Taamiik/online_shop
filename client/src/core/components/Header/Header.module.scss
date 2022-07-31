@@ -1,0 +1,43 @@
+.header {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: 120px;
+
+  &__logo {
+    width: 100%;
+    height: inherit;
+    position: relative;
+  }
+
+  &__search {
+    width: 100%;
+    height: inherit;
+    position: relative;
+
+    .input {
+      width: 100%;
+      margin-top: 30px;
+      padding: 5px;
+      font-size: 1.1em;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #dfdfe1;
+    }
+
+    .searchIcon {
+      cursor: pointer;
+      width: 5%;
+      height: 30%;
+      position: absolute;
+      right: 0;
+      top: 25%;
+    }
+  }
+
+  &__account {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    display: flex;
+  }
+}

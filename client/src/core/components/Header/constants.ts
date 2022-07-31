@@ -1,0 +1,1 @@
+export const placeholderText = ["Телефоны", "Телевизоры", "Ноутбуки"];

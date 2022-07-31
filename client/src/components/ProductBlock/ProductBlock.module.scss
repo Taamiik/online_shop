@@ -1,0 +1,82 @@
+$mainColor: #fd821e;
+
+.productBlock {
+  height: 400px;
+  margin: 20px 0;
+
+  &_container {
+    display: grid;
+    grid-template-columns: 35% 40% 25%;
+    height: inherit;
+
+    .child {
+      height: 100%;
+    }
+
+    .image {
+      width: 50%;
+      height: 70%;
+      display: flex;
+      margin: 0px auto;
+      padding-top: 40px;
+    }
+
+    .title {
+      display: block;
+      padding-top: 20px;
+
+      .head {
+        color: #63599c;
+        cursor: pointer;
+        &:hover {
+          color: $mainColor;
+        }
+      }
+
+      .line {
+        height: 1px;
+        margin-top: 20px;
+        background: #f5f5f6;
+      }
+
+      .parameters {
+        margin-top: 15px;
+        font-size: 0.9em;
+      }
+    }
+
+    .price {
+      p {
+        text-align: center;
+      }
+      .priceText {
+        margin-top: 100px;
+        color: #63599c;
+        font-size: 1.8em;
+      }
+
+      .basket {
+        font-size: 1.3em;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #fe7200;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $mainColor;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+  }
+
+  &:not(:hover) {
+    transition: 0.2s ease;
+  }
+}

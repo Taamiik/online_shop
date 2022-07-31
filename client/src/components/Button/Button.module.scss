@@ -1,0 +1,16 @@
+.button {
+  position: relative;
+}
+
+.text {
+  margin: 30px 0 0 20px;
+  padding: 5px 7px;
+  cursor: pointer;
+  background: transparent;
+  font-size: 1.2em;
+  border: none;
+
+  &:hover {
+    color: #ff5200;
+  }
+}
